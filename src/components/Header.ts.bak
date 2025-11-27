@@ -1,0 +1,20 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Header.css';
+
+const Cabecalho: React.FC = () => {
+  return (
+    <header className="cabecalho">
+      <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+        <h2><Link to="/" className="link-logo">Adota+</Link></h2>
+        <nav>
+          <Link to="/pets" className="nav-link">Pets</Link>
+          <Link to="/about" className="nav-link">Sobre</Link>
+          <Link to="/contact" className="nav-link">Contato</Link>
+        </nav>
+      </div>
+    </header>
+  );
+};
+
+export default Cabecalho;

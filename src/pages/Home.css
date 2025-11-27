@@ -1,0 +1,137 @@
+.hero {
+    background: linear-gradient(
+            120deg,
+            rgba(123, 47, 247, 0.12),
+            rgba(0, 212, 255, 0.12)
+    );
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    box-shadow: var(--shadow);
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: var(--muted);
+    font-size: 1.15rem;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 260px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 28px;
+    }
+
+    .hero img {
+        max-width: 220px;
+    }
+}
+/* Grid que contém os cards */
+.pets-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 26px;
+}
+
+/* Card */
+.pet-card {
+    background: var(--card);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.pet-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+}
+
+/* Imagem */
+.pet-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    background: #ececec;
+}
+
+/* Conteúdo interno */
+.pet-card .meta {
+    padding: 18px;
+}
+
+/* Título */
+.pet-card h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+/* Subtítulo / texto */
+.pet-card p {
+    margin: 4px 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* Botão dentro do card (se tiver) */
+.pet-card button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 14px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    color: white;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.pet-card button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(123, 47, 247, 0.35);
+}
+
+/* Ícone de favorito (se usado) */
+.botao-fav {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--accent);
+    margin-left: auto;
+    transition: 0.2s;
+}
+
+.botao-fav:hover {
+    transform: scale(1.15);
+}

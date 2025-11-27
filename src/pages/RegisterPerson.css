@@ -1,0 +1,22 @@
+.register-person-page {
+    padding: 1rem;
+    max-width: 520px;
+    margin: 1rem auto;
+}
+
+.register-person-page label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.register-person-page input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+.form-footer {
+    margin-top: 12px;
+    color: var(--muted);
+    font-size: 0.9rem;
+}

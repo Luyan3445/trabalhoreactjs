@@ -1,0 +1,19 @@
+.pet-card {
+    background: linear-gradient(180deg, #fff, #fbfbff);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.pet-card .meta {
+    padding: 12px;
+}
+
+.pet-card h3 {
+    margin: 0 0 6px;
+}
+
+.pet-card p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+}

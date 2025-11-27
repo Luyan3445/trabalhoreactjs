@@ -1,0 +1,80 @@
+.form-card {
+    margin-top: 25px;
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.12);
+}
+
+.form-card h2 {
+    margin-bottom: 18px;
+    color: #6c5ce7;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #6c5ce7;
+    box-shadow: 0 0 6px rgba(108, 92, 231, 0.3);
+}
+
+.btn-enviar {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #6c5ce7;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-enviar:hover {
+    background: #5a4bcc;
+    transform: scale(1.03);
+}
+
+.mensagem-sucesso {
+    margin-top: 12px;
+    color: #1f9d55;
+    font-weight: 600;
+    text-align: center;
+}
+
+.mensagem-erro {
+    margin-top: 12px;
+    color: #e03131;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .form-card {
+        padding: 18px;
+    }
+}

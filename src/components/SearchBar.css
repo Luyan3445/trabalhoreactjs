@@ -1,0 +1,9 @@
+.barra-busca {
+    margin: 12px 0;
+}
+
+.barra-busca input {
+    padding: 8px;
+    width: 100%;
+    max-width: 420px;
+}
