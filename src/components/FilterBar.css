@@ -1,5 +1,6 @@
 .barra-filtro {
     margin: 8px 0;
+    margin-right: 9px 0 !important;
 }
 
 .barra-filtro select {

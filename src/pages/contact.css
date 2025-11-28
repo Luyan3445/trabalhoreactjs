@@ -1,0 +1,62 @@
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-card {
+    background: var(--card);
+    padding: 40px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact-card h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.contact-card h3 {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.contact-card p {
+    margin: 0;
+    line-height: 1.55;
+    font-size: 1.05rem;
+    color: var(--muted);
+}
+
+/* Lista de contatos */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.05rem;
+    color: var(--text);
+}
+
+.contact-list i {
+    font-size: 1.4rem;
+    color: var(--accent);
+    background: rgba(123, 47, 247, 0.12);
+    padding: 10px;
+    border-radius: var(--radius-sm);
+}

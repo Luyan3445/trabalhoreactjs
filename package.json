@@ -9,17 +9,17 @@
     "start:backend": "cd backend && npm run dev"
   },
   "dependencies": {
-    "axios": "^1.4.0",
-    "bootstrap-icons": "^1.13.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.1"
+    "react-router-dom": "^6.22.3",
+    "bootstrap-icons": "^1.11.3",
+    "axios": "^1.6.2"
   },
   "devDependencies": {
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
     "typescript": "^5.4.2",
-    "vite": "^5.0.0"
+    "vite": "^5.0.12"
   }
 }
